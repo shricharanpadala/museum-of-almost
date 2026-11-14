@@ -4,7 +4,7 @@ An independent digital exhibition about inventions and futures that almost happe
 
 **[Visit the museum](https://shricharanpadala.github.io/museum-of-almost/)**
 
-![Museum of Almost, exhibition illustration](docs/exhibition.svg)
+![Museum of Almost, live exhibition](docs/preview.jpg)
 
 The collection can be explored as a gallery, a timeline or one of three guided walks. Each exhibit brings its historical account together with references and a clearly marked counterfactual. A comparison room puts up to three histories beside one another, without pretending they share a single explanation.
 
