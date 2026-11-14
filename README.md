@@ -1,12 +1,12 @@
 # Museum of Almost
 
-An independent digital exhibition about inventions and futures that almost happened. Eight objects, from Babbage’s Analytical Engine to Concorde, tell different stories about the distance between a compelling idea and a lasting reality.
+An independent digital exhibition about inventions and futures that almost happened. Twenty objects, from Babbage’s Analytical Engine to Concorde, tell different stories about the distance between a compelling idea and a lasting reality.
 
 **[Visit the museum](https://shricharanpadala.github.io/museum-of-almost/)**
 
 ![Museum of Almost, live exhibition](docs/preview.jpg)
 
-The collection can be explored as a gallery, a timeline or one of three guided walks. Each exhibit brings its historical account together with references and a clearly marked counterfactual. A comparison room puts up to three histories beside one another, without pretending they share a single explanation.
+The collection can be explored as a gallery, a timeline or one of six guided walks. Each exhibit brings its historical account together with references and a clearly marked counterfactual. A comparison room puts up to three histories beside one another, without pretending they share a single explanation.
 
 Visitors can keep a private notebook in their own browser and export it as JSON. Shared links contain exhibit and filter choices, never notes. No account, API key, backend or ChatGPT subscription is required.
 
@@ -31,9 +31,9 @@ Open `http://localhost:8080`. Opening `index.html` directly with a `file:` URL w
 
 | File | Responsibility |
 | --- | --- |
-| `docs/data.js` | Curated exhibit records, source URLs and guided walks |
+| `docs/data.js` and `docs/expansion.js` | Curated exhibit records, source URLs and guided walks |
 | `docs/core.js` | Search, route encoding, comparison rules and notebook validation |
-| `docs/art.js` | Original SVG object illustrations, with isolated gradient IDs |
+| `docs/art.js` and `docs/new-art.js` | Original SVG object illustrations, with isolated gradient IDs |
 | `docs/app.js` | Accessible dialogs, rendering, history and local notebook interactions |
 | `docs/styles.css` | Responsive editorial design, reduced motion and print rules |
 | `tests/core.test.js` | Data, search, persistence, import and URL regression tests |
